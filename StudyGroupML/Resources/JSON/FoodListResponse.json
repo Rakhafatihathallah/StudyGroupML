@@ -1,0 +1,141 @@
+{
+    "status": "Success",
+    "foods": [
+        {
+            "id": 1,
+            "name": "Fried Rice",
+            "rating": 4.5,
+            "image_url": "https://i.pinimg.com/564x/d3/d6/8f/d3d68f21f68e8ad02619eb81c06a6d75.jpg",
+            "price": 25000,
+            "table": 1,
+            "chair": 1
+        },
+        {
+            "id": 2,
+            "name": "Chicken Satay",
+            "rating": 4.8,
+            "image_url": "https://i.pinimg.com/564x/25/a6/38/25a6386e5e64ad2a809b9dccfd741477.jpg",
+            "price": 30000,
+            "table": 1,
+            "chair": 3
+            
+        },
+        {
+            "id": 3,
+            "name": "Gado-gado",
+            "rating": 4.7,
+            "image_url": "https://i.pinimg.com/564x/90/b6/a9/90b6a95fa0ab4bbb09869445257de771.jpg",
+            "price": 20000,
+            "table": 1,
+            "chair": 1
+        },
+        {
+            "id": 4,
+            "name": "Chicken Noodles",
+            "rating": 4.6,
+            "image_url": "https://i.pinimg.com/564x/86/0e/0d/860e0dcfa62f5b93fccd6c98bb5b3386.jpg",
+            "price": 18000,
+            "table": 1,
+            "chair": 1
+        },
+        {
+            "id": 5,
+            "name": "Chicken Soup",
+            "rating": 4.7,
+            "image_url": "https://i.pinimg.com/564x/ad/06/9c/ad069c5237bf658d23cf95425e2d6224.jpg",
+            "price": 22000,
+            "table": 1,
+            "chair": 2
+        },
+        {
+            "id": 6,
+            "name": "Padang Rice",
+            "rating": 4.9,
+            "image_url": "https://i.pinimg.com/564x/e4/89/1d/e4891d69f77f4697294617ede9c74997.jpg",
+            "price": 35000,
+            "table": 1,
+            "chair": 1
+        },
+        {
+            "id": 7,
+            "name": "Meatball Soup",
+            "rating": 4.6,
+            "image_url": "https://i.pinimg.com/564x/a9/46/9d/a9469de0af8b6cff873350f4c266a34c.jpg",
+            "price": 15000,
+            "table": 1,
+            "chair": 1
+        },
+        {
+            "id": 8,
+            "name": "Fried Noodles",
+            "rating": 4.9,
+            "image_url": "https://i.pinimg.com/564x/74/e6/66/74e66635b6386750a1153937bbacc3ad.jpg",
+            "price": 8000,
+            "table": 1,
+            "chair": 1
+        },
+        {
+            "id": 9,
+            "name": "Beef Rendang",
+            "rating": 4.9,
+            "image_url": "https://i.pinimg.com/564x/6b/cd/fc/6bcdfc556fa4e5f45ab0e5471faa4d1a.jpg",
+            "price": 40000,
+            "table": 1,
+            "chair": 1
+        },
+        {
+            "id": 10,
+            "name": "Yellow Rice",
+            "rating": 4.7,
+            "image_url": "https://i.pinimg.com/564x/51/fa/09/51fa09d9923aa217b54fe2945379f58a.jpg",
+            "price": 25000,
+            "table": 3,
+            "chair": 5
+        },
+        {
+            "id": 11,
+            "name": "Fried Chicken",
+            "rating": 4.6,
+            "image_url": "https://i.pinimg.com/564x/e5/cd/71/e5cd7163e473d92ad0a1d0d7d9e9c5c0.jpg",
+            "price": 28000,
+            "table": 1,
+            "chair": 1
+        },
+        {
+            "id": 12,
+            "name": "Catfish Pecel",
+            "rating": 4.5,
+            "image_url": "https://i.pinimg.com/564x/c6/14/23/c61423ae8c4ab9639ac1ebac5de74de7.jpg",
+            "price": 20000,
+            "table": 1,
+            "chair": 1
+        },
+        {
+            "id": 13,
+            "name": "Coconut Rice",
+            "rating": 4.8,
+            "image_url": "https://i.pinimg.com/564x/ef/24/e1/ef24e199465de63fb79e6052a136e4ae.jpg",
+            "price": 22000,
+            "table": 1,
+            "chair": 1
+        },
+        {
+            "id": 14,
+            "name": "Martabak Manis",
+            "rating": 4.7,
+            "image_url": "https://i.pinimg.com/564x/b3/b0/5e/b3b05e569a1675ef34989c1b282cad02.jpg",
+            "price": 30000,
+            "table": 1,
+            "chair": 3
+        },
+        {
+            "id": 15,
+            "name": "Spicy Liver",
+            "rating": 4.5,
+            "image_url": "https://i.pinimg.com/736x/0f/58/71/0f58717cccaf29dbfd7cbe93acb9bdba.jpg",
+            "price": 28000,
+            "table": 1,
+            "chair": 4
+        }
+    ]
+}

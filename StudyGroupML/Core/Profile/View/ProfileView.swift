@@ -27,27 +27,7 @@ struct ProfileView: View {
     var body: some View {
         NavigationStack {
             List {
-                HStack(spacing: 16) {
-                    LocalImage.profilePicture
-                        .resizable()
-                        .clipShape(Circle())
-                        .frame(width: 80, height: 80)
-                    
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text("Rakha Fatih")
-                            .fontModifier(size: 20)
-                            .fontWeight(.medium)
-                        Text("rakha@gmail.com")
-                            .fontModifier(size: 16)
-                    }
-                    Spacer()
-                    // Edit
-                    HStack {
-                        SystemImage.pencil
-                            .frame(width: 20, height: 20)
-                        Text("Edit")
-                    }
-                }.listRowSeparator(.hidden)
+                header()
                 Section("Account") {
                     ForEach(accountData, id: \.title) { account in
                         NavigationLink {
@@ -63,14 +43,14 @@ struct ProfileView: View {
                     }
                 }.listSectionSeparator(.hidden)
                 Section("More Info") {
-                    ForEach(moreInfoData, id: \.title) { account in
+                    ForEach(moreInfoData, id: \.title) { moreinfo in
                         NavigationLink {
-                            Text(account.title)
+                            Text(moreinfo.title)
                         } label: {
                             HStack {
-                                account.icon
+                                moreinfo.icon
                                     .foregroundColor(Color(.darkGray))
-                                Text(account.title)
+                                Text(moreinfo.title)
                             }
                         }
 
@@ -109,3 +89,30 @@ struct ProfileModel {
     var title: String
 }
 
+extension ProfileView {
+    @ViewBuilder
+    func header() -> some View {
+        HStack(spacing: 16) {
+            LocalImage.profilePicture
+                .resizable()
+                .clipShape(Circle())
+                .frame(width: 80, height: 80)
+            
+            VStack(alignment: .leading, spacing: 4) {
+                Text("Rakha Fatih")
+                    .fontModifier(size: 20, weight: .regular)
+                    .fontWeight(.medium)
+                Text("rakha@gmail.com")
+                    .fontModifier(size: 16, weight: .regular)
+            }
+            Spacer()
+            // Edit
+            HStack {
+                SystemImage.pencil
+                    .frame(width: 20, height: 20)
+                Text("Edit")
+            }
+        }.listRowSeparator(.hidden)
+    }
+    
+}

@@ -12,11 +12,12 @@ struct StudyGroupMLApp: App {
     var body: some Scene {
         WindowGroup {
             TabView {
-                HomeView()
-                    .tabItem {
-                        SystemImage.house
-                        Text("Home")
-                    }
+                NavigationStack {
+                    HomeView()
+                }.tabItem {
+                    SystemImage.house
+                    Text("Home")
+                }
                 SearchView()
                     .tabItem {
                         SystemImage.search
